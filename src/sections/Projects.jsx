@@ -39,8 +39,8 @@ const Projects = () => {
             <img src={currentProject.spotlight} alt="spotlight" className="w-full h-96 object-cover rounded-xl" />
           </div>
 
-          <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={currentProject.logoStyle}>
-            <img className="w-10 h-10 shadow-sm" src='https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-svg-vector.svg' alt="logo" />
+          <div className="p-3 w-24 backdrop-filter backdrop-blur-3xl rounded-lg" style={currentProject.logoStyle}>
+            <img className="w-full h-10 shadow-sm" src={currentProject.logo} alt="logo" />
           </div>
 
           <div className="flex flex-col gap-5 text-white-600 my-5">

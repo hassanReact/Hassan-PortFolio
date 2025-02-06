@@ -55,43 +55,44 @@ export const clientReviews = [
   },
 ];
 export const myProjects = [
-  {
-    title: 'React - Single Page Websites',
-    desc: 'React is a powerful JavaScript library for building dynamic user interfaces. With its component-based architecture and efficient virtual DOM, it enables developers to create fast and interactive web applications effortlessly.',
-    subdesc:
-      'Built as a unique platform with React, Tailwind CSS, Gsap, Three.js, and Vite, modern websites created with this stack are designed for optimal performance and scalability. This combination empowers developers to build visually appealing, interactive, and highly efficient web experiences tailored for diverse user needs.',
-    href: '/',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
-    logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
-    spotlight: '/assets/spotlight1.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
+{
+  title: 'Zyck Property - Real Estate Management Platform',
+  desc: 'Zyck Property is an intuitive platform designed for real estate management. It provides seamless property listings, secure transactions, and an easy-to-navigate interface for both buyers and sellers.',
+  subdesc:
+    'Built using Next 15, Tailwind CSS, TypeScript, Prisma and many things, the platform delivers a fast, responsive user experience with visually appealing design. Features include smooth property browsing, detailed listings, and secure payment integrations, all tailored for optimal performance and scalability.',
+  href: 'https://www.zyckproperty.com/',
+  texture: '/textures/project/Create Next App - Google Chrome 2025-01-13 02-54-46.mp4',
+  logo: '/assets/logo.png',
+  logoStyle: {
+    backgroundColor: '#1A1A1D',
+    border: '0.2px solid #3D3D3D',
+    boxShadow: '0px 0px 60px 0px #F1C27D',
   },
+  spotlight: '/assets/zyck-spotlight-.png',
+  tags: [
+    {
+      id: 1,
+      name: 'Next.js',
+      path: '/assets/nextjs-icon.png',
+    },
+    {
+      id: 2,
+      name: 'TailwindCSS',
+      path: '/assets/tailwindcss.png',
+    },
+    {
+      id: 3,
+      name: 'Prisma',
+      path: '/assets/prisma.png',
+    },
+    {
+      id: 4,
+      name: 'TypeScript',
+      path: '/assets/typescript.png',
+    },
+  ],
+}
+,
   {
     title: 'Dynamic E-Commerce Platform',
     desc: 'A robust e-commerce platform featuring smooth navigation, secure payment gateways, and intuitive user experiences. Tailored for scalability, this solution boosts customer engagement and drives online sales.',
